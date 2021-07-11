@@ -72,6 +72,13 @@ module.exports = {
             lineHeight: "1.6525rem",
           },
         ],
+        body: [
+          ".9375rem",
+          {
+            letterSpacing: "0",
+            lineHeight: "1.5625rem",
+          },
+        ],
       },
     },
   },
