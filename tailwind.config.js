@@ -15,12 +15,23 @@ module.exports = {
         gray: "hsl(0,0%,95%)",
         "light-gray": "hsl(0,0%,98%)",
       },
+      zIndex: {
+        "-10": "-10",
+        100: "100",
+      },
       fontSize: {
         h1: [
           "3.5rem",
           {
             letterSpacing: "2px",
             lineHeight: "3.625rem",
+          },
+        ],
+        h1m: [
+          "2.25rem",
+          {
+            letterSpacing: "1.3px",
+            lineHeight: "2.5rem",
           },
         ],
         h2: [
