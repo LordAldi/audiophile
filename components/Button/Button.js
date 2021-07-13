@@ -7,6 +7,8 @@ const Button = ({ variant, children, classname, icon }) => {
       "bg-white border-2 border-black hover:bg-black hover:text-white font-bold";
   } else if (variant === "shop") {
     style = "hover:text-primary";
+  } else if (variant === "secondary") {
+    style = "bg-black hover:bg-blackhover";
   } else {
     style = "bg-primary hover:bg-primary-hover text-white font-bold";
   }

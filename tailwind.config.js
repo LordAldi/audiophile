@@ -12,6 +12,7 @@ module.exports = {
         primary: "hsl(22,65%,57%)",
         "primary-hover": "hsl(21,94%,75%)",
         blackish: "hsl(0,0%,6%)",
+        blackhover: "hsl(0,0%,30%)",
         gray: "hsl(0,0%,95%)",
         "light-gray": "hsl(0,0%,98%)",
       },
