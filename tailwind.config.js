@@ -80,6 +80,9 @@ module.exports = {
           },
         ],
       },
+      height: {
+        22.5: "5.625rem",
+      },
     },
   },
   variants: {
