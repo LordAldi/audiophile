@@ -20,10 +20,10 @@ export default function Home() {
           <div className="w-full h-full">
             <div className="relative w-full flex justify-center">
               <div className="w-40 z-10 xl:w-full xl:absolute top-7">
-                <Image src={zx9} />
+                <Image src={zx9} alt="ZX9" />
               </div>
               <div className="absolute w-full z-0 -top-12 left-0 right-0 flex justify-center opacity-25">
-                <Image src={Circle} />
+                <Image src={Circle} alt="" />
               </div>
             </div>
           </div>

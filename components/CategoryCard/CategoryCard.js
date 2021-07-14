@@ -6,7 +6,7 @@ const ProductCard = ({ name, image }) => {
   return (
     <div className="h-56 relative ">
       <div className="absolute right-0 left-0 -top-12 flex justify-center">
-        <Image src={image} className="max-w-0" />
+        <Image src={image} className="max-w-0" alt={name} />
       </div>
 
       <div className=" bottom-0 -z-10 w-full h-40 bg-gray flex flex-col justify-end items-center">

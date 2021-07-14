@@ -10,8 +10,10 @@ const Navbar = () => {
       <Logo className="md:flex-grow md:ml-10 xl:ml-0 xl:flex-none cursor-pointer" />
 
       <ul className="hidden xl:flex text-white">
-        {navItem.map((item) => (
-          <li className="mr-8 cursor-pointer hover:text-primary">{item}</li>
+        {navItem.map((item, i) => (
+          <li key={i} className="mr-8 cursor-pointer hover:text-primary">
+            {item}
+          </li>
         ))}
       </ul>
 
