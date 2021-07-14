@@ -23,10 +23,10 @@ const Footer = () => {
       </div>
       <div className="text-center md:text-left">
         <Typography variant="body" className="opacity-50">
-          Audiophile is an all in one stop to fulfill your audio needs. We're a
-          small team of music lovers and sound specialists who are devoted to
-          helping you get the most out of personal audio. Come and visit our
-          demo facility - we’re open 7 days a week.
+          Audiophile is an all in one stop to fulfill your audio needs.
+          We&apos;re a small team of music lovers and sound specialists who are
+          devoted to helping you get the most out of personal audio. Come and
+          visit our demo facility - we&apos;re open 7 days a week.
         </Typography>
       </div>
       <div className="text-center md:text-left flex flex-col md:flex-row items-center md:w-full md:justify-between">
