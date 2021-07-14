@@ -3,8 +3,7 @@ import React from "react";
 const Button = ({ variant, children, classname, icon }) => {
   let style = "";
   if (variant === "outline") {
-    style =
-      "bg-white border-2 border-black hover:bg-black hover:text-white font-bold";
+    style = " border-2 border-black hover:bg-black hover:text-white font-bold";
   } else if (variant === "shop") {
     style = "hover:text-primary";
   } else if (variant === "secondary") {

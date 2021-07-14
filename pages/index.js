@@ -5,7 +5,12 @@ import CategoryCardsSection from "../components/CategoryCardsSection/CategoryCar
 import Typography from "../components/Typography/Typography";
 import Button from "../components/Button/Button";
 import zx9 from "../assets/home/mobile/image-speaker-zx9.png";
-import zx9d from "../assets/home/desktop/image-speaker-zx9.png";
+import zx7 from "../assets/home/mobile/image-speaker-zx7.jpg";
+import zx7t from "../assets/home/tablet/image-speaker-zx7.jpg";
+import zx7d from "../assets/home/desktop/image-speaker-zx7.jpg";
+import yx1 from "../assets/home/mobile/image-earphones-yx1.jpg";
+import yx1t from "../assets/home/tablet/image-earphones-yx1.jpg";
+import yx1d from "../assets/home/desktop/image-earphones-yx1.jpg";
 import Circle from "../assets/home/desktop/Group4.png";
 export default function Home() {
   return (
@@ -41,6 +46,72 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="contain relative rounded-lg mt-6 md:mt-8 ">
+        <div className="w-full h-full overflow-hidden md:hidden">
+          <Image src={zx7} alt="ZX7" className="overflow-hidden rounded-lg" />
+        </div>
+        <div className="w-full h-full overflow-hidden hidden md:block xl:hidden object-cover">
+          <Image
+            src={zx7t}
+            alt="ZX7"
+            layout="responsive"
+            objectFit="cover"
+            className="overflow-hidden rounded-lg hidden w-44"
+          />
+        </div>
+        <div className="w-full h-full overflow-hidden hidden xl:block object-cover">
+          <Image
+            src={zx7d}
+            alt="ZX7"
+            layout="responsive"
+            objectFit="cover"
+            className="overflow-hidden rounded-lg hidden w-44"
+          />
+        </div>
+        <div className="absolute top-0 bottom-0 flex pl-6 md:pl-16 xl:pl-24 items-center">
+          <div className="">
+            <Typography variant="h4" className="mb-8">
+              ZX7 SPEAKER
+            </Typography>
+            <Button variant="outline">SEE PRODUCT</Button>
+          </div>
+        </div>
+      </section>
+      <section className="contain gap-6 md:gap-3 grid grid-cols-1 md:grid-cols-2 mt-6 md:mt-8">
+        <div className="md:hidden">
+          <Image
+            src={yx1}
+            alt="yx1"
+            className="rounded-lg"
+            layout="responsive"
+          />
+        </div>
+        <div className="hidden md:block xl:hidden">
+          <Image
+            src={yx1t}
+            alt="yx1"
+            className="rounded-lg"
+            layout="responsive"
+          />
+        </div>
+        <div className="hidden xl:block ">
+          <Image
+            src={yx1d}
+            alt="yx1"
+            className="rounded-lg"
+            layout="responsive"
+          />
+        </div>
+        <div className=" bg-gray rounded-lg py-14 pl-6 md:pl-11 xl:pl-24 md:flex md:flex-col md:justify-center md:py-0 w-full">
+          <Typography variant="h4" className="mb-8">
+            YX1 EARPHONES
+          </Typography>
+          <div>
+            <Button variant="outline">SEE PRODUCT</Button>
+          </div>
+        </div>
+      </section>
+      <section>anfeufha</section>
     </main>
   );
 }
