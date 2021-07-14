@@ -42,6 +42,12 @@ module.exports = {
             lineHeight: "2.75rem",
           },
         ],
+        h2m: [
+          "1.75rem",
+          {
+            letterSpacing: "1px",
+          },
+        ],
         h3: [
           "2rem",
           {

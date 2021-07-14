@@ -10,7 +10,7 @@ const Typography = ({ variant, children, className = "" }) => {
       );
     case "h2":
       return (
-        <h2 className={`${className} text-h2 font-bold uppercase`}>
+        <h2 className={`${className} text-h2m md:text-h2 font-bold uppercase`}>
           {children}
         </h2>
       );
